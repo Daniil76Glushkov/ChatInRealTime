@@ -4,7 +4,7 @@ from datetime import datetime, timezone
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 
 
-app = FastAPI(title="Чат в реальном времени")
+app = FastAPI(title="Чат")
 
 
 def current_time() -> str:
